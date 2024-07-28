@@ -11,13 +11,14 @@ Les notes sont stockées dans une base de données et l'application fournit une 
 - Modifier des notes existantes
 - Supprimer des notes
 - Vider les champs
+- Rechercher une note dans la barre de recherche
 - Voir la liste de toutes les notes
 - Confirmer la suppression avec une boîte de dialogue
 - Support de l'internationalisation pour le français
 
 ## Technologies Utilisées
 
-- Java
+- Java 22
 - JavaFX
 - Mysql de docker desktop
 
@@ -25,6 +26,7 @@ Les notes sont stockées dans une base de données et l'application fournit une 
 ## Prérequis
 
 - Java 3.8
+- docker desktop
 
 
 ## Installation
@@ -33,36 +35,18 @@ Les notes sont stockées dans une base de données et l'application fournit une 
     ```bash
     git clone https://github.com/sylvayas/note-taking-app.git
     cd note-taking-app
-    ```
+    ```docker-compose up --build 
 
 2. Ouvrez le projet dans votre IDE  Eclipse.
 
 
 
-3. Configurez la base de données :
-    - Assurez-vous d'avoir une base de données mysql nommée `notetakingappdb` dans le répertoire racine du projet.
-    - Créez la table `Notes` en utilisant la commande SQL suivante :
-        ```sql
-        CREATE TABLE Notes (
-            idNote INT  AUTO_INCREMENT PRIMARY KEY,
-            title VARCHAR (200),
-            description VARCHAR(200)
-        );
-        ```
-
 ## Utilisation
 
 1. Avant de lancez l'application, s'il vous plaît veuillez d'abord enregistrer la classe DatabaseConnection, le controller BaseController et ListNotesUIController au cas ou vous rencontriez des erreurs lors du lancement de l'application
-2. Utilisez l'interface pour ajouter, vider les champs,modifier  ou supprimer des notes.
-3. Confirmez les suppressions via les invites de boîte de dialogue.
-
-
-## Contribution
-
-1. Forkez le dépôt.
-2. Créez une nouvelle branche pour votre fonctionnalité ou correction de bug.
-3. Validez vos modifications et poussez la branche vers votre fork.
-4. Créez une pull request avec une description détaillée de vos modifications.
+2. Utilisez l'interface pour ajouter, vider les champs,rechercher une note dans la barre de recherche,modifier ou supprimer des notes.
+3. lorsque vous voulez supprimer une note veuillez d'abord selectionner la ligne avant de la supprimer et cela va de même pour la modification  
+4. Confirmez les suppressions via les invites de boîte de dialogue.
 
 
 ## Contact
