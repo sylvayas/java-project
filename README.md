@@ -21,6 +21,7 @@ Les notes sont stockées dans une base de données et l'application fournit une 
 - Java 22
 - JavaFX
 - Mysql de docker desktop
+- JavaSE-17
 
 
 ## Prérequis
