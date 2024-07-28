@@ -52,7 +52,7 @@ Les notes sont stockées dans une base de données et l'application fournit une 
 
 ## Utilisation
 
-1. Avant de lancez l'application, s'il vous plaît veillez d'abord enregistrer la classe DatabaseConnection, le controller BaseController et ListNotesUIController au cas ou vous rencontriez des erreurs lors du lancement de l'application
+1. Avant de lancez l'application, s'il vous plaît veuillez d'abord enregistrer la classe DatabaseConnection, le controller BaseController et ListNotesUIController au cas ou vous rencontriez des erreurs lors du lancement de l'application
 2. Utilisez l'interface pour ajouter, vider les champs,modifier  ou supprimer des notes.
 3. Confirmez les suppressions via les invites de boîte de dialogue.
 
