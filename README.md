@@ -1,4 +1,4 @@
-# Application de Gestion des Notes
+# Application de prise de Note
 
 ## Description
 
