@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:latest
+    container_name: sylva-mysql-container
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: notetakingappdb
+    volumes:
+      - ./db.sql:/docker-entrypoint-initdb.d/db.sql
