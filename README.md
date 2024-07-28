@@ -35,7 +35,7 @@ Les notes sont stockées dans une base de données et l'application fournit une 
     ```bash
     git clone https://github.com/sylvayas/note-taking-app.git
     cd note-taking-app
-    ```docker-compose up --build 
+    docker-compose up --build 
 
 2. Ouvrez le projet dans votre IDE  Eclipse.
 
